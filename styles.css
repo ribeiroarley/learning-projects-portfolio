@@ -115,7 +115,7 @@ nav ul li a:hover {
     font-size: 1.2rem; /* Padronizando tamanho de parágrafos */
 }
 
-/* "Seu parceiro de TI para sua empresa" */
+/* "Parceiro de TI para Trabalhos e Projetos" */
 .partner-text {
     color: #1d4e89; /* Azul Oracle */
     font-size: 1.5rem; /* Destaque sem ultrapassar os títulos */
@@ -178,7 +178,7 @@ footer {
     text-align: center;
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 12px;
 }
 
 footer p {
