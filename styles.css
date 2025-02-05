@@ -18,7 +18,7 @@ body {
 header {
     background-color: #333;
     color: white;
-    padding: 20px 0;
+    padding: 3px 0;
     text-align: center;
 }
 
@@ -54,21 +54,21 @@ nav ul li a:hover {
 /* Seção "Sobre Mim" */
 .about {
     text-align: center;
-    padding: 50px 20px;
+    padding: 120px 20px;
     background-color: white;
     margin-bottom: 20px;
 }
 
 .about h2 {
     font-size: 1.8rem; /* Ajustado para manter a hierarquia */
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: #1d4e89; /* Azul Oracle */
     font-weight: bold;
     margin-top: 20px;
 }
 
 .profile-pic {
-    max-width: 340px;
+    max-width: 350px;
     border-radius: 50%;
     margin-top: 20px;
 }
@@ -79,7 +79,7 @@ nav ul li a:hover {
     margin: 40px auto;
     padding: 20px;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
