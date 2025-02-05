@@ -39,7 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #DB4437;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
@@ -48,7 +48,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #DB4437;
+    color: #964b00;
 }
 
 /* Seção "Sobre Mim" */
@@ -62,7 +62,7 @@ nav ul li a:hover {
 .about h2 {
     font-size: 1.8rem; /* Ajustado para manter a hierarquia */
     margin-bottom: 20px;
-    color: #1d4e89; /* Azul Oracle */
+    color: #000000; /* Preto */
     font-weight: bold;
     margin-top: 20px;
 }
