@@ -62,11 +62,13 @@ nav ul li a:hover {
 .about h2 {
     font-size: 1.8rem; /* Ajustado para manter a hierarquia */
     margin-bottom: 15px;
-    color: #DB4437; /* Vermelho para destaque */
+    color: #1d4e89; /* Azul Oracle */
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 .profile-pic {
-    max-width: 150px;
+    max-width: 340px;
     border-radius: 50%;
     margin-top: 20px;
 }
@@ -180,9 +182,10 @@ footer {
 }
 
 footer p {
-    font-size: 1.2rem; /* Padrão para manter a identidade visual */
+    font-size: 1rem; /* Reduzindo o tamanho da fonte no rodapé */
     margin-bottom: 5px;
 }
+
 
 /* Responsividade */
 
@@ -197,15 +200,15 @@ footer p {
     }
 
     .about, .text-block, #contact {
-        padding: 30px 10px; /* Reduz o padding para telas menores */
+        padding: 30px 10px; /* Padding para telas menores */
     }
 
     .profile-pic {
-        max-width: 120px; /* Reduzindo o tamanho da imagem */
+        max-width: 250px; /* Tamanho da imagem */
     }
 
     .narrative-text {
-        font-size: 1rem; /* Ajustando para melhorar a leitura */
+        font-size: 1rem; /* Para melhorar a leitura */
     }
 
     .social-btn {
@@ -225,7 +228,7 @@ footer p {
     }
 
     .profile-pic {
-        max-width: 100px;
+        max-width: 280px;
     }
 
     .narrative-text, #contact p {
@@ -241,3 +244,4 @@ footer p {
         font-size: 1.2rem;
     }
 }
+
