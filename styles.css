@@ -9,7 +9,7 @@
 body {
     font-family: 'Fira Code', monospace;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #d9d9d9;
     color: #333;
     font-size: 1rem; /* Definindo um tamanho base uniforme */
 }
@@ -84,7 +84,7 @@ nav ul li a:hover {
 }
 
 .narrative-text {
-    font-size: 1.2rem; /* Padronizado para manter leitura confortável */
+    font-size: 1.2rem; /* Padronizado */
     line-height: 1.8;
     color: #555;
     margin-bottom: 20px;
