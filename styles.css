@@ -9,16 +9,16 @@
 body {
     font-family: 'Fira Code', monospace;
     line-height: 1.6;
-    background-color: #d9d9d9;
+    background-color: #f8f9fa; /* Branco suave */
     color: #333;
-    font-size: 1rem; /* Definindo um tamanho base uniforme */
+    font-size: 1rem;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #333;
+    background-color: #DB4437; /* Vermelho */
     color: white;
-    padding: 3px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
@@ -39,30 +39,30 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #DB4437;
+    color: #ffcc00; /* Amarelo */
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 1.2rem; /* Mantendo todas as opções de navegação no mesmo tamanho */
+    font-size: 1.2rem;
     transition: color 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
-    color: #964b00;
+    color: #ff6f00; /* Laranja */
 }
 
 /* Seção "Sobre Mim" */
 .about {
     text-align: center;
     padding: 120px 20px;
-    background-color: white;
+    background-color: #ffffff;
     margin-bottom: 20px;
 }
 
 .about h2 {
-    font-size: 1.8rem; /* Ajustado para manter a hierarquia */
+    font-size: 1.8rem;
     margin-bottom: 20px;
-    color: #000000; /* Preto */
+    color: #1d4e89; /* Azul */
     font-weight: bold;
     margin-top: 20px;
 }
@@ -78,24 +78,15 @@ nav ul li a:hover {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #ffcc00; /* Amarelo */
     border-radius: 20px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .narrative-text {
-    font-size: 1.2rem; /* Padronizado */
+    font-size: 1.2rem;
     line-height: 1.8;
-    color: #555;
-    margin-bottom: 20px;
-}
-
-.narrative-text:last-child {
-    margin-bottom: 0;
-}
-
-.text-block p {
-    word-spacing: 0.5px;
+    color: #333;
 }
 
 /* Contato */
@@ -106,19 +97,15 @@ nav ul li a:hover {
 }
 
 #contact h2 {
-    font-size: 1.8rem; /* Igual ao "Sobre Mim" */
+    font-size: 1.8rem;
     margin-bottom: 20px;
-}
-
-#contact p {
-    margin-bottom: 20px;
-    font-size: 1.2rem; /* Padronizando tamanho de parágrafos */
+    color: #964b00; /* Marrom */
 }
 
 /* "Parceiro de TI para Trabalhos e Projetos" */
 .partner-text {
-    color: #1d4e89; /* Azul Oracle */
-    font-size: 1.5rem; /* Destaque sem ultrapassar os títulos */
+    color: #1d4e89; /* Azul */
+    font-size: 1.5rem;
     font-weight: bold;
     margin-top: 20px;
 }
@@ -126,7 +113,7 @@ nav ul li a:hover {
 /* Botões de redes sociais */
 .centered {
     display: flex;
-    justify-content: center; /* Centraliza os botões */
+    justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
     margin-top: 20px;
@@ -138,7 +125,7 @@ nav ul li a:hover {
     gap: 10px;
     padding: 10px 20px;
     border-radius: 25px;
-    font-size: 1.2rem; /* Mantendo coerência com os botões */
+    font-size: 1.2rem;
     text-decoration: none;
     color: white;
     transition: all 0.3s ease;
@@ -148,11 +135,11 @@ nav ul li a:hover {
 
 /* Estilos para GitHub */
 .github {
-    background-color: #333;
+    background-color: #24292f;
 }
 
 .github:hover {
-    background-color: #24292f;
+    background-color: #1a1f27;
 }
 
 /* Estilos para LinkedIn */
@@ -176,22 +163,20 @@ nav ul li a:hover {
 /* Rodapé */
 footer {
     text-align: center;
-    background-color: #333;
+    background-color: #964b00; /* Marrom */
     color: white;
     padding: 12px;
 }
 
 footer p {
-    font-size: 1rem; /* Reduzindo o tamanho da fonte no rodapé */
+    font-size: 1rem;
     margin-bottom: 5px;
 }
 
 /* Responsividade */
-
-/* Para telas menores que 768px (tablets e celulares grandes) */
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column; /* Empilhar os itens da navegação */
+        flex-direction: column;
     }
 
     nav ul li {
@@ -199,47 +184,33 @@ footer p {
     }
 
     .about, .text-block, #contact {
-        padding: 30px 10px; /* Padding para telas menores */
+        padding: 30px 10px;
     }
 
     .profile-pic {
-        max-width: 250px; /* Tamanho da imagem */
+        max-width: 250px;
     }
 
     .narrative-text {
-        font-size: 1rem; /* Para melhorar a leitura */
+        font-size: 1rem;
     }
 
     .social-btn {
         font-size: 1rem;
         padding: 8px 15px;
     }
-
-    .partner-text {
-        font-size: 1.3rem;
-    }
 }
 
-/* Para telas menores que 480px (celulares pequenos) */
 @media (max-width: 480px) {
     header h1 {
-        font-size: 1.5rem; /* Reduzindo o tamanho do título */
+        font-size: 1.5rem;
     }
 
     .profile-pic {
-        max-width: 280px;
+        max-width: 200px;
     }
 
     .narrative-text, #contact p {
         font-size: 1rem;
-    }
-
-    .social-btn {
-        font-size: 0.9rem;
-        padding: 6px 12px;
-    }
-
-    .partner-text {
-        font-size: 1.2rem;
     }
 }
